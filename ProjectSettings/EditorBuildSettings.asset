@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuPausa.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: cbb94dac408357f4985095b191d3293c
+  - enabled: 1
+    path: Assets/Scenes/MenuCreditos.unity
+    guid: a4dd92f6d11628e46bad81252930a7bc
+  - enabled: 1
+    path: Assets/Scenes/Ajustes.unity
+    guid: 4c32fb7122875754d9921814742407ec
+  - enabled: 1
+    path: Assets/Scenes/Hud.unity
+    guid: 21b35a882962a7542a826716e9d29e21
   m_configObjects: {}
