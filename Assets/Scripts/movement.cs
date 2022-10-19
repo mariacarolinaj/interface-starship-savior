@@ -20,17 +20,16 @@ public class movement : MonoBehaviour
 
         //Debug.Log(x);
 
-        if (x != 0 && rb.velocity.x < 60) 
+        if (x != 0)// && rb.velocity.x < 60) 
         {
-            rb.velocity = rb.velocity + new Vector2(x * 2, 0);
+            rb.velocity = rb.velocity + new Vector2(x * 4, 0);
             //transform.position = transform.position + new Vector3(0, 100, 0);
         }
 
-        if(y != 0 && rb.velocity.y < 60)
+        if(y != 0)// && rb.velocity.y < 60)
         {
-            rb.velocity = rb.velocity + new Vector2(0, y * 2);
+            rb.velocity = rb.velocity + new Vector2(0, y * 4);
             //transform.position = transform.position + new Vector3(100, 0, 0);
         }
-
     }
 }
